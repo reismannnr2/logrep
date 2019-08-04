@@ -1,0 +1,14 @@
+Logrep: Block-oriented mini grep tool
+---
+This is text for testing.
+It's separated by a delimiter \"---\".
+Of course, these \"---\" not at the beginning of line are not treated as a delimiter. 
+---
+You can search plain text or regular expressions, case-sensitively or case-insensitively.
+---
+Unlike our lovely grep, which doesn't care about semantics, treat each lines as isolated,
+logrep split the text into blocks by delimiter, and any line of each block matches the given pattern,
+then it prints out all of the block.
+---
+It's very useful for searching log files or chaptered text like markdown.
+Now, let's try out Logrep!

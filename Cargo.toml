@@ -1,0 +1,11 @@
+[package]
+name = "logrep"
+version = "0.2.0"
+authors = ["reismannnr2 <reismannnr2@gmail.com0>"]
+edition = "2018"
+description = "Logrep: Block-oriented mini-grep tool"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.2.0"
+clap = "2.33.0"
